@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 //routes
-app.use("/user", userRouter);
+app.use("/users", userRouter);
 
 app.listen(config.port, () =>
   console.log(
